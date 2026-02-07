@@ -1,0 +1,33 @@
+# Build artifacts
+build/
+*.o
+*.so
+*.a
+sentinelfs
+
+# Editor and IDE files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test and benchmark output
+/tmp/
+*.log
+fio_test/
+
+# FUSE mount points (don't commit these)
+mnt/
+mount/
+*_mount/
+*_storage/
+
+# Core dumps
+core
+core.*
